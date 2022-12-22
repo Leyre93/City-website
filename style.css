@@ -14,6 +14,10 @@ ul {
   text-decoration: underline;
   font-weight: bold;
 }
+body, html {
+  overflow-x: hidden;
+}
+
 .logo {
   color: orangered;
 }
@@ -79,10 +83,58 @@ header {
   right: 30px;
   width: 40px;
   cursor: pointer;
+  display: none;
+}
+
+/* Events */
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: rgb(26, 156, 150);
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events .row {
+  margin-top: 50px;
+}
+h4 {
+  font-size: 3vmin;
+  color: rgb(94, 94, 97);
+  margin: 20px auto;
+}
+p {
+  color: black;
+  padding: 0px 40px;
+}
+.events .ctn {
+  margin-top: 30px;
+}
+.explore {
+  width: 100%;
+  height: 80vh;
+  background-image: url('./Images/Valencia7.jpg');
+
 }
 
 /* For mobile devices */
 @media only screen and (max-width:850px){
+  .menu-btn {
+    display: block;
+  }
   .navbar {
     padding: 0;
   }
@@ -98,9 +150,11 @@ header {
     justify-content: center;
     background: blueviolet;
     margin-top: -900px;
+    transition: all 0.8s ease;
   }
   .mobile-menu {
     margin-top: 0px;
+    border-bottom-right-radius: 20%;
   }
   .nav-links li {
     margin: 30px auto;
