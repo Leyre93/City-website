@@ -24,14 +24,15 @@ body, html {
 
 /* Navbar */
 .navbar {
-  position: absolute;
+  
   top: 0;
   left: 0;
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 20px;
-  color: whitesmoke;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(59, 29, 9, 0.158);
 }
 .nav-links {
   display: flex;
@@ -201,14 +202,25 @@ p {
 /*about*/
 .about {
   width: 100vw;
+  position: relative;
+  display: inline-block;
   height: 100vh;
-  background-image: url('./Images/Background\ About.jpg');
+  background-color: #e9e9ff;
   background-position: bottom;
   background-size: cover;
   display: flex;
   align-items: center;
+  padding-top: 60px;
+  margin-top: 1px;
+}
+.about h2{
+  color: rgb(107, 104, 104);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.about p{
+  margin-right: 40px;
   justify-content: center;
-  padding: 60px;
 }
 
 /* For mobile devices */
