@@ -199,6 +199,22 @@ p {
   padding: 20px auto;
 }
 
+element.style {
+  opacity: 0.5;
+  display: inline;
+}
+#to_top_scrollup {
+  
+  color: transparent;
+  height: auto;
+  width: 15px;
+  right: 200px;
+  bottom: 10px;
+  border-radius: 5%; 
+  padding: 5px;
+  position: fixed;
+}
+
 /*about*/
 .about {
   width: 100vw;
