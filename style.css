@@ -87,6 +87,49 @@ header {
   display: none;
 }
 
+/*Bootstrap*/
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+/*about*/
+.about {
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+  height: 70vh;
+  background-color: #e9e9ff;
+  background-position: bottom;
+  background-size: cover;
+  align-items: center;
+  padding-top: 60px;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.about h1{
+  color: rgb(26, 156, 150);
+}
+
+.about h2{
+  color: rgb(107, 104, 104);
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.about p{
+  margin-top: 40px;
+  margin-right: 40px;
+  justify-content: center;
+  font-size: 3vmin;
+}
+
 /* Events */
 section {
   width: 80%;
@@ -94,7 +137,7 @@ section {
 }
 .title {
   text-align: center;
-  font-size: 4vmin;
+  font-size: 3vmin;
   color: rgb(26, 156, 150);
 }
 .row {
@@ -215,37 +258,6 @@ element.style {
   position: fixed;
 }
 
-/*about*/
-.about {
-  width: 100vw;
-  position: relative;
-  display: inline-block;
-  height: 70vh;
-  background-color: #e9e9ff;
-  background-position: bottom;
-  background-size: cover;
-  align-items: center;
-  padding-top: 60px;
-  margin-top: 1px;
-  text-align: center;
-}
-
-.about h1{
-  color: rgb(26, 156, 150);
-}
-
-.about h2{
-  color: rgb(107, 104, 104);
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.about p{
-  margin-top: 40px;
-  margin-right: 40px;
-  justify-content: center;
-  font-size: 3vmin;
-}
 
 /* For mobile devices */
 @media only screen and (max-width:850px){
