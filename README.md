@@ -9,3 +9,7 @@ I took the weather feature from that page.
 
 https://google-map-generator.com/
 Used this link to copy the code for the map.
+
+https://whc.unesco.org/archive/websites/valencia/us/city/pgs/cit.history.htm
+https://en.wikipedia.org/wiki/Valencia#History
+Both used to write the About and History of Valencia.
