@@ -242,26 +242,6 @@ p {
   padding: 20px auto;
 }
 
-#back-to-top {
-  
-  width: 100px;
-  right: 200px;
-  bottom: 90px;
-  border-radius: 5px; 
-  padding: 5px 12px;
-  position: fixed;
-  cursor: pointer;
-}
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 
 /* For mobile devices */
 @media only screen and (max-width:850px){
