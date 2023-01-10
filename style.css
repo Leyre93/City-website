@@ -242,20 +242,24 @@ p {
   padding: 20px auto;
 }
 
-element.style {
-  opacity: 0.5;
-  display: inline;
-}
-#to_top_scrollup {
+#back-to-top {
   
-  color: transparent;
-  height: auto;
-  width: 15px;
+  width: 100px;
   right: 200px;
-  bottom: 10px;
-  border-radius: 5%; 
-  padding: 5px;
+  bottom: 90px;
+  border-radius: 5px; 
+  padding: 5px 12px;
   position: fixed;
+  cursor: pointer;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
