@@ -79,7 +79,7 @@ header {
   color: whitesmoke;
 }
 .menu-btn {
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 30px;
   width: 40px;
