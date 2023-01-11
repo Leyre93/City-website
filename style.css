@@ -99,9 +99,27 @@ header {
 }
 
 /*about*/
+.about{
+  margin-top: 35px;
+}
 
-
-
+.about h1{
+text-align: center;
+color: rgb(26, 156, 150);
+margin-top: 20px;
+}
+.about h2{
+  text-align: center;
+  color: rgb(107, 104, 104);
+  margin-top: 10px;
+}
+.about p{
+  margin-top: 15px;
+  margin-right: 20px;
+  justify-content: center;
+  font-size: 2.5vmin;
+  margin-bottom: 30px;
+}
 /* Events */
 section {
   width: 80%;
@@ -116,13 +134,15 @@ section {
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-bottom: 35px;
 
 }
 .row .col {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .events .row {
   margin-top: 50px;
