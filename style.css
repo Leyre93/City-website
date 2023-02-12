@@ -346,3 +346,6 @@ li:hover {
   color: orangered;
   cursor: pointer;
 }
+.w3-grayscale {
+  filter: grayscale(100%);
+}
