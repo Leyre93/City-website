@@ -121,6 +121,20 @@
           menuBtn.addEventListener('click',()=>{
               navLinks.classList.toggle('mobile-menu')
           })
+          
+    // Add transition end event listener to the first image
+    const firstImage = document.querySelector('img.img-fluid');
+    firstImage.addEventListener('transitionend', (event) => {
+        console.log('Transition ended on the first image');
+    });
+
+   // opacity effect
+    firstImage.style.transition = 'opacity 2s';
+    firstImage.style.opacity = 0.5;
+    setTimeout(() => {
+        firstImage.style.opacity = 1;
+    }, 2000);
+
       </script>
 
 </body>
